@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+   
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+color: orange;
+
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+ul li{
+ list-style: none;
+ margin-left: 20px;
+ margin-top: 15px;
+ font-size: 14px;
+}
+ul li a{
+text-decoration: none;
+color: orange;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+}
+
+ul li a:hover{
+    color: chartreuse;
+}
+
+.search{
+width: 330px;
+float: left;
+margin-right: 50px ;
+}
+.form{
+width: 200px;
+height: 300px;
+position: absolute;
+top: 80px;
+left: 600px;
+border-radius: 25px;
+border: solid black;
+padding: 20px;
+}
+.form h2{
+    width: 180px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    margin-top: 25px;
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid orangered;
+
+
+}
+.btnn{
+    width: 150px;
+    height: 40px;
+    background: orangered;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.btnn:hover{
+    background: white;
+    color: orangered;
+}
+.btnn a{
+    text-decoration: none;
+    font-weight: bold;
+}
